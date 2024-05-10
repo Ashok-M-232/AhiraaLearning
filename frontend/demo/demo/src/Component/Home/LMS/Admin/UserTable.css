@@ -1,0 +1,71 @@
+/* Custom styles for the UserTable component */
+.user-table-container {
+    padding: 20px;
+    background-color: #F8FAFC;
+}
+
+.user-table-header {
+    margin-bottom: 20px;
+    color: #1F2937; /* Dark text color */
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.user-table th, .user-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.user-table th {
+    cursor: pointer;
+    user-select: none;
+    color: #1F2937; /* Dark text color */
+}
+
+.user-table th:hover {
+    color: #4ADEDE; /* Accent color on hover */
+}
+
+/* Styles for specific columns */
+.column-id, .column-username, .column-password,
+.column-batch, .column-project, .column-college {
+    padding: 10px;
+}
+
+.column-id {
+    width: 10%;
+}
+
+.column-username {
+    width: 15%;
+}
+
+.column-password {
+    width: 15%;
+}
+
+.column-batch {
+    width: 15%;
+}
+
+.column-project {
+    width: 15%;
+}
+
+.column-college {
+    width: 20%;
+}
+
+/* Style the rows */
+.user-row:hover {
+    background-color: #E5E7EB; /* Light gray on hover */
+}
+
+/* Spinner styles */
+.spinner-border {
+    margin-top: 20px;
+    color: #4ADEDE; /* Accent color for the spinner */
+}

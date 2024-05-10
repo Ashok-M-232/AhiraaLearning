@@ -1,0 +1,100 @@
+/* Curriculum.css */
+
+.CMechBG{
+  background-image: url("./3254043.jpg");
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-position: center ;
+  color: white;
+  font-weight: bold; /* Add font bold */
+
+  font-size: 20px;
+}
+
+
+.CMechBG .curriculum-heading {
+  padding: 35px;
+  text-align:center;
+  color: #ffffff; /* Dark text color */
+}
+
+.CMechBG .accordion-container {
+  display: flex;
+  color: #ffffff ;
+  justify-content: space-between; /* Spread accordion columns evenly */
+}
+
+.CMechBG .accordion-column {
+  flex: 0 0 48%; /* Set width of accordion columns */
+}
+
+.CMechBG .accordion-item {
+  margin: 20px;
+  border-radius: 20px;
+ 
+  overflow: hidden;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.816); /* Add shadow effect to accordion items */
+}
+/* forButton */
+.CMechBG .accordion-title {
+  background-color: #384e6cec; /* Light gray background for accordion title */
+  padding: 20px;
+  color: #ffffff;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.CMechBG .accordion-content {
+  
+  max-height: 0;
+  overflow: hidden;
+  
+  transition: max-height 1.2s ease-in-out; /* Smooth transition when opening and closing accordion content */
+}
+
+.CMechBG .accordion-content.open {
+  
+  max-height: 1000px; /* Adjust the maximum height as needed */
+}
+
+
+
+
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 176px) {
+  .CMechBG{
+    font-size: 10px;
+    color: black;
+    font-weight: bold; /* Add font bold */
+
+
+}
+}
+@media (min-width: 376px) {
+  .CMechBG{
+    font-size: 11px;
+
+}
+}
+@media (min-width: 576px) {
+  .CMechBG{
+    font-size: 15px;
+
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+}

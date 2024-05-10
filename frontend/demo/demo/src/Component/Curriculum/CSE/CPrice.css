@@ -1,0 +1,59 @@
+/* CSS for small to medium screens */
+.cse11bg5 {
+  width: 100%;
+  height: auto;
+  background-image: url("./csebg8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Plan card styles */
+.cse11bg5 .ForCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.cse11bg5 .ForCenter .plan-card {
+  border: 1px solid #c4c2c2;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 25px rgba(199, 243, 243, 0.641);
+}
+
+.cse11bg5 .ForCenter .plan-card h2 {
+  margin-top: 0;
+}
+
+.cse11bg5 .ForCenter .plan-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Different Card Styles */
+.cse11bg5 .ForCenter .self-led,
+.cse11bg5 .ForCenter .acknowledge-pre,
+.cse11bg5 .ForCenter .advanced-mentor-pre {
+  background-color: #0000007b;
+}
+.csebtn {
+  background-color: #000000; /* Dark button background color */
+  color: #00f2ff; /* Text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 4px 4px 8px rgba(32, 194, 230, 0.605), -4px -4px 8px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease; 
+  cursor: pointer; 
+}
+
+.csebtn:hover {
+  color: #355e86;
+  background-color: #00f2ff;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3), -6px -6px 12px rgba(255, 255, 255, 0.3); 
+  transform: translateY(-2px);
+}

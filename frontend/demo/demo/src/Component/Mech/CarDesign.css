@@ -1,0 +1,27 @@
+.CarDeBG1{
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Mech/Images/CarDesgn.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+      
+  }
+  .CarDeBG1 .CaeDeH1{
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 12px;
+      background-color: rgb(0, 0, 0);
+      
+  }
+  .CarDeBG1 .CaeDeH6 {
+      color: rgb(255, 255, 255);
+      display: flex;
+      margin: 5%;
+      justify-content: auto;
+      padding: 12px;
+      width: 90%;
+      text-align: justify; /* Added for text justification */
+  }
+  

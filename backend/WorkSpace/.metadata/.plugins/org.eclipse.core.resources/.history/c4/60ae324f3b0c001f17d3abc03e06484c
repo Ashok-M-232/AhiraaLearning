@@ -1,0 +1,49 @@
+package com.alpl.www.service;
+
+import java.io.Serializable;
+
+import org.hibernate.engine.spi.SharedSessionContractImplementor;
+import org.hibernate.id.IdentifierGenerator;
+
+import com.alpl.www.entity.IdCounter;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.LockModeType;
+
+public class CustomIdGenerator implements IdentifierGenerator {
+
+    private static final String COUNTER_KEY = "ALPL";
+
+    // Synchronized generate method to avoid concurrent modifications
+    @Override
+    public synchronized Serializable generate(SharedSessionContractImplementor session, Object object) {
+        // Obtain the EntityManager from the session
+        EntityManager entityManager = ((EntityManager) session.getSession()).getEntityManagerFactory().createEntityManager();
+
+        // Use the EntityManager to find and lock the IdCounter entity
+        IdCounter idCounter = entityManager.find(IdCounter.class, COUNTER_KEY, LockModeType.PESSIMISTIC_WRITE);
+
+        if (idCounter == null) {
+            // If the IdCounter entity does not exist, initialize it
+            idCounter = new IdCounter();
+            idCounter.setId(COUNTER_KEY);
+            idCounter.setCurrentCounter(1);
+            entityManager.persist(idCounter);
+        }
+
+        // Retrieve the current counter value
+        long counterValue = idCounter.getCurrentCounter();
+
+        // Generate the custom ID in the format "ALPL%03d"
+        String id = String.format("ALPL%03d", counterValue);
+
+        // Increment the counter and save the changes
+        counterValue++;
+        idCounter.setCurrentCounter(counterValue);
+        entityManager.getTransaction().begin();
+        entityManager.merge(idCounter);
+        entityManager.getTransaction().commit();
+
+        return id;
+    }
+}

@@ -1,0 +1,36 @@
+.CardContainer {
+    background-image: url('./Btn/19627.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .CardContainer .container {
+    width: 100%; /* Ensure the container takes full width */
+  }
+  
+  .CardContainer .row {
+    display: flex;
+    justify-content: center; /* Center the row horizontally */
+    flex-wrap: wrap;
+  }
+  
+  .CardContainer .card {
+    width: 200px;
+    height: 200px;
+    border-radius: 55px;
+    overflow: hidden;
+    margin: 0 10px 20px; /* Adjust margin for spacing */
+  }
+  
+  .CardContainer .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

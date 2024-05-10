@@ -1,0 +1,97 @@
+
+.MGbg5{
+    width: 100%;
+      height: auto;
+      background-image: url("../Management/Image/PriceBg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .MGbg5 .ForCenter{
+    
+      display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: auto; /* Adjust height as needed */
+  }
+  
+  .MGbg5 .ForCenter .plan-card {
+    border: 1px solid #c4c2c2;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 25px rgba(102, 104, 104, 0.641); /* Add shadow to the cards */
+  
+  }
+  
+  .MGbg5 .ForCenter .plan-card h2 {
+    margin-top: 0;
+  }
+  
+  .MGbg5 .ForCenter .plan-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Different Card Styles */
+  .MGbg5 .ForCenter .self-led {
+    background-color: #534f4cdd;
+  }
+  
+  .MGbg5 .ForCenter .acknowledge-pre {
+    background-color: #534f4cdd;
+  }
+  
+  .MGbg5 .ForCenter .advanced-mentor-pre {
+    background-color: #534f4cdd;
+  }
+  /* Popup box container */
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Popup content */
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Show the popup when the show class is added */
+.show {
+  display: block;
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+}

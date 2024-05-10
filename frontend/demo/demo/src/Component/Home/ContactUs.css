@@ -1,0 +1,82 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container styles */
+.contact {
+    
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headings styles */
+.contact-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #ffffff; /* Dark color */
+    margin-bottom: 20px;
+    padding: 12px;
+    text-align: center;
+    font-size: 38px;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    text-shadow: 2px 2px 4px rgb(0, 107, 170);
+}
+
+/* Subheadings styles */
+.contact-subheading {
+    font-family: 'Arial', sans-serif;
+    font-size: 22px;
+    color: #34495e; /* Slightly lighter dark color */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+.contact-paragraph {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #7f8c8d; /* Medium grey color */
+    margin-bottom: 20px;
+}
+
+/* Styled border for the address, phone number, and email sections */
+.contact-subheading + .contact-paragraph {
+    margin-top: 0;
+    padding-left: 15px; /* Add left padding */
+    border-left: 4px solid #3498db; /* Blue accent color */
+}
+
+/* Social Media styles */
+.social-media-section {
+    margin-top: 30px; /* Add space before the social media section */
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 600px) {
+    /* Reduce container padding and font sizes */
+    .contact-container {
+        padding: 10px;
+    }
+
+    .contact-heading {
+        font-size: 24px;
+    }
+
+    .contact-subheading {
+        font-size: 20px;
+    }
+
+    .contact-paragraph {
+        font-size: 14px;
+    }
+}

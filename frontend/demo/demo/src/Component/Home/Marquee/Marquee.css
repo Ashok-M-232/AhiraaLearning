@@ -1,0 +1,33 @@
+/* Adjusting existing CSS for better responsiveness with Bootstrap */
+.marquee {
+    overflow: hidden;
+    position: relative;
+  }
+ 
+  .marquee-content {
+    display: flex;
+
+    animation: marqueeScroll 30s linear infinite;
+  }
+  
+  /* Adjust the scroll speed for smaller screens */
+  .marquee-content li {
+    margin: 0 1rem;
+    list-style: none;
+  }
+  
+  /* Icon hover effect */
+  .marquee-content .fa:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Keyframes for marquee scroll animation */
+  @keyframes marqueeScroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-300%);
+    }
+  }
+  

@@ -1,0 +1,97 @@
+/* Curriculum.css */
+
+.MGBG{
+  background-image: url("./CMGBG.jpg");
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-position: center ;
+  color: white;
+  font-weight: bold; /* Add font bold */
+
+  font-size: 20px;
+}
+
+
+.MGBG .curriculum-heading {
+  padding: 35px;
+  text-align:center;
+  color: #ffffff; /* Dark text color */
+}
+
+.MGBG .accordion-container {
+  display: flex;
+  justify-content: space-between; /* Spread accordion columns evenly */
+}
+
+.MGBG .accordion-column {
+  flex: 0 0 48%; /* Set width of accordion columns */
+}
+
+.MGBG .accordion-item {
+  margin: 20px;
+  border-radius: 20px;
+ 
+  overflow: hidden;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.816); /* Add shadow effect to accordion items */
+}
+/* forButton */
+.MGBG .accordion-title {
+  background-color: #ffffffa6; /* Light gray background for accordion title */
+  padding: 20px;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.MGBG .accordion-content {
+  
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.2s ease-in-out; /* Smooth transition when opening and closing accordion content */
+}
+
+.MGBG .accordion-content.open {
+  
+  max-height: 500px; /* Adjust the maximum height as needed */
+}
+
+
+
+
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 176px) {
+  .MGBG{
+    font-size: 10px;
+    color: black;
+    font-weight: bold; /* Add font bold */
+
+
+}
+}
+@media (min-width: 376px) {
+  .MGBG{
+    font-size: 11px;
+
+}
+}
+@media (min-width: 576px) {
+  .MGBG{
+    font-size: 15px;
+
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+}

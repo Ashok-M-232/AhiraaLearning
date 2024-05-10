@@ -1,0 +1,28 @@
+import java.io.Serializable;
+
+import org.hibernate.engine.spi.SharedSessionContractImplementor;
+import org.hibernate.id.IdentifierGenerator;
+import org.hibernate.query.Query;
+
+public class CustomIdGenerator implements IdentifierGenerator {
+
+    private static final String QUERY_LAST_ID = "SELECT MAX(u.id) FROM User u";
+    private static final String ID_PREFIX = "ALPL";
+
+    @Override
+    public Serializable generate(SharedSessionContractImplementor session, Object object) {
+        // Retrieve the maximum ID currently in use
+        Query<String> query = session.createQuery(QUERY_LAST_ID, String.class);
+        String lastId = query.uniqueResult();
+
+        // Calculate the next ID
+        long counter = 1;
+        if (lastId != null && lastId.startsWith(ID_PREFIX)) {
+            String numericPart = lastId.substring(ID_PREFIX.length());
+            counter = Long.parseLong(numericPart) + 1;
+        }
+
+        // Format the new ID
+        return String.format(ID_PREFIX + "%03d", counter);
+    }
+}

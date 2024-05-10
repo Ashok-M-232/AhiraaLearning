@@ -1,0 +1,109 @@
+/* Curriculum.css */
+
+.CBG{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("./CCBG.png");
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-position: center ;
+  color: white;
+  font-weight: bold; /* Add font bold */
+
+  font-size: 20px;
+}
+
+
+.CBG .curriculum-heading {
+  padding: 35px;
+  text-align:center;
+  color: #ffffff; /* Dark text color */
+  font-family: 'Algerian';
+}
+
+.CBG .accordion-container {
+  display: flex;
+  justify-content: space-between; /* Spread accordion columns evenly */
+}
+
+.CBG .accordion-column {
+  flex: 0 0 48%; /* Set width of accordion columns */
+}
+
+.CBG .accordion-item {
+  margin: 20px;
+  border-radius: 20px;
+ 
+  overflow: hidden;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.816); /* Add shadow effect to accordion items */
+}
+/* forButton */
+.CBG .accordion-title {
+  background-color: #ffffffa6; /* Light gray background for accordion title */
+  padding: 20px;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.CBG .accordion-content {
+  
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.2s ease-in-out; /* Smooth transition when opening and closing accordion content */
+}
+
+.CBG .accordion-content.open {
+  
+  max-height: 500px; /* Adjust the maximum height as needed */
+}
+
+
+
+
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 176px) {
+  .CBG{
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold; /* Add font bold */
+    
+
+}
+.CBG .accordion-title {
+  background-color: #8fd4f29f; /* Light gray background for accordion title */
+  padding: 20px;
+ color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* font-family: 'Algerian'; */
+  
+}
+}
+@media (min-width: 376px) {
+  .CBG{
+    font-size: 11px;
+
+}
+}
+@media (min-width: 576px) {
+  .CBG{
+    font-size: 15px;
+
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+}

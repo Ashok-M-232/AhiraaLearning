@@ -1,0 +1,163 @@
+
+.eeebg{
+    width: 100%;
+    height: 90vh;
+    background-image: url("./EEEIMG/eeebg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .eeebg .CseHd .CseH1 {
+    padding: 1%;
+    text-align: center;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  .eeeBg3 {
+    background-image: url("./EEEIMG/5332259.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto; /* Adjust height as needed */
+    padding: 50px; /* Add padding to create space */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  /* styles.css */
+  
+  .eee1bg4 {
+    background-image: url("./EEEIMG/tndr.jpg");
+    background-size: cover;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto; /* Adjust height as needed */
+    padding: 50px; /* Add padding to create space */
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+ .eeebg4 .text-center {
+    text-align: center;
+  }
+  
+ .eeebg4 .csebg4 {
+    font-family: Arial, sans-serif; /* Change to your preferred font */
+    line-height: 1.6; /* Adjust line height as needed */
+  }
+  
+ .eeebg4 .csebg4 ul {
+    list-style: none;
+    padding: 4%;
+    margin: 4%;
+  }
+  
+ .eeebg4 .csebg4 li {
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  
+ .eeebg4 .csebg4 ul li strong {
+    font-size: 25px; /* Set font size for strong elements */
+    color: #00CCFF; /* Set color for strong elements */
+  }
+  
+ .eeebg4 .csebg4 ul {
+    font-size: 1.2rem; /* Set font size for list items */
+  }
+  
+  .eeebg5{
+    width: 100%;
+      height: auto;
+      background-image: url("./EEEIMG/led1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+      .eeebg5 .ForCenter{
+        
+          display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: auto; /* Adjust height as needed */
+      }
+      
+      .eeebg5 .ForCenter .plan-card {
+        border: 1px solid #c4c2c2;
+        border-radius: 10px;
+        color: #000000;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 6px 25px rgba(102, 104, 104, 0.641); /* Add shadow to the cards */
+      
+      }
+      
+      .eeebg5 .ForCenter .plan-card h2 {
+        margin-top: 0;
+      }
+      
+      .eeebg5 .ForCenter .plan-card ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      /* Different Card Styles */
+      .eeebg5 .ForCenter .self-led {
+        background-color: #b8b8b8b4;
+      }
+      
+      .eeebg5 .ForCenter .acknowledge-pre {
+        background-color: #b8b8b8b4;
+      }
+      
+      .eeebg5 .ForCenter .advanced-mentor-pre {
+        background-color: #b8b8b8b4;
+      }
+      
+      
+  
+  .postcard {
+      flex-wrap: wrap;
+      display: flex;
+      box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+      border-radius: 10px;
+      margin: 0 0 2rem 0;
+      overflow: hidden;
+      position: relative;
+      color: #ffffff;
+    }
+    
+    .postcard__text {
+      flex: 1;
+      padding: 20px;
+    }
+    
+    .postcard__img_link {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    .postcard__img {
+      width: auto;
+    }
+    
+    /* Add more CSS styles as needed */
+    /* Additional CSS styles can be added here */
+  .side-img {
+      width: 100%;
+      height: auto;
+    }
+  
+  
+  
+  
+    

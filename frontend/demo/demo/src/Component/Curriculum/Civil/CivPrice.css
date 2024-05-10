@@ -1,0 +1,50 @@
+/* CSS for small to medium screens */
+
+.civbg5 {
+  width: 100%;
+  background-image: url("./Images/Civil15.jpg");
+
+}
+.civbg5 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Plan card styles */
+.civbg5 .ForCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.civbg5 .ForCenter .plan-card {
+  border: 1px solid #00c3ff;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.641);
+}
+
+.civbg5 .ForCenter .plan-card h2 {
+  margin-top: 0;
+}
+
+.civbg5 .ForCenter .plan-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Different Card Styles */
+.civbg5 .ForCenter .self-led,
+.civbg5 .ForCenter .acknowledge-pre,
+.civbg5 .ForCenter .advanced-mentor-pre {
+  background-color: #000000e9;
+}

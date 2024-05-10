@@ -1,0 +1,42 @@
+/* Offers.css */
+
+.Offers {
+    background-image: url('./Image/Simplebg2.png');
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3%;
+    /* color: brown; */
+}
+
+
+.container p-4 h3 {
+    text-align: center; /* Centering the paragraph text */
+    padding: 20px;
+    margin: 15px;
+    
+}
+
+.container-fluid p-5 {
+    padding: 20px; /* Adjust padding as needed */
+}
+
+/* Adjusting margin for all heading and paragraph elements */
+h2 {
+    margin: 0;
+    color: rgb(0, 35, 96);
+}
+p {
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .row .col-md-6 {
+        margin-bottom: 15px;
+    }
+    .container p-4 h3 {
+        font-size: 1.2rem; /* Adjusting font size for smaller screens */
+    }
+}

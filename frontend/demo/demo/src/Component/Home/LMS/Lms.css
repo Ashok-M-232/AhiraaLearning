@@ -1,0 +1,17 @@
+/* Lms.css */
+
+.BGLMS {
+    background-image: url("./Imanges/LMS4.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+.red-card {
+  background-color: rgba(207, 207, 207, 0.671);
+      /* height: 300px;
+    width: 400px;  */
+}

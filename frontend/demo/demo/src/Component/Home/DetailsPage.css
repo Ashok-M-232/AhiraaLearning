@@ -1,0 +1,55 @@
+/* Custom CSS for DetailsPage component */
+
+/* Center the form vertically */
+.details-container {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    background-image: url("./CivBg2.png");
+    border-radius:15px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Adjust form width */
+.details-content {
+    width: 90%;
+    max-width: 400px; /* Adjust as needed */
+}
+
+/* Add some padding to the form */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Additional styling for form inputs if needed */
+.form-control {
+    width: 100%;
+    
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+
+/* Style the submit button */
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+}

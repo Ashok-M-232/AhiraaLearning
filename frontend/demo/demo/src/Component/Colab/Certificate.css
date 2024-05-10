@@ -1,0 +1,51 @@
+.tieupBG1 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%;
+    /* background-image: url("./8171677.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+
+
+  }
+.tieupBG1 .h1Bg{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 1%;
+    text-align: center;
+
+
+  }
+.tieupBG1 .IMGBG{
+    background-color: rgba(186, 186, 186, 0.719);
+    height: 100%;
+  }
+.tieupBG1 .IMGBGcmpy{
+    height: 100%;
+  }
+  
+  .tieupBG1 .card-img-top {
+ 
+
+    width: 32%;
+    margin: 2%;
+    padding: 40px;
+    transition: all 0.3s ease; /* Adjust the speed by changing the duration (0.3s) */
+
+}
+
+.tieupBG1 .card-img-top:hover {
+    width: 45%;
+    margin: 2.7%;
+    padding: 50px;
+    /* width: 32%;
+    margin: 1%;
+    padding: 40px; */
+}
+
+
+

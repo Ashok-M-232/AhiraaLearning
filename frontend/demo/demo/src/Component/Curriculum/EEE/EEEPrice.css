@@ -1,0 +1,65 @@
+.csebg51 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.csebg51 {
+  width: 100%;
+  height: auto;
+  background-image: url("./led1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.csebg51 .ForCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.csebg51 .ForCenter .plan-card {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 25px rgba(199, 243, 243, 0.641);
+}
+
+.csebg51 .ForCenter .plan-card h2 {
+  margin-top: 0;
+  color: orange;
+}
+
+.csebg51 .ForCenter .plan-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Different Card Styles */
+.csebg51 .ForCenter .self-led,
+.csebg51 .ForCenter .acknowledge-pre,
+.csebg51 .ForCenter .advanced-mentor-pre {
+  background-color: #0000007b;
+  /* color: #ffa273; */
+}
+.csebg51 .ebtn{
+color: orange;
+background-color: rgb(0, 0, 0);
+box-shadow: 4px 4px 8px rgba(250, 175, 0, 0.605), -4px -4px 8px rgba(255, 255, 255, 0.2);
+
+
+}
+
+.csebg51 .ebtn:hover {
+  color: black;
+  background-color: orange;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3), -6px -6px 12px rgba(255, 255, 255, 0.3); 
+  transform: translateY(-2px);
+}

@@ -1,0 +1,26 @@
+.CADBG1{
+    width: 100%;
+  height: 90vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Mech/Images/ACAD.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center top;
+    
+}
+.CADBG1 .CADH1{
+    color: white;
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.CADBG1 .CADH6 {
+    color: white;
+    display: flex;
+    margin: 5%;
+    justify-content: auto;
+    padding: 12px;
+    width: 90%;
+    text-align: justify;
+}

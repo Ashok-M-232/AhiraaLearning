@@ -1,0 +1,166 @@
+/* Home.css */
+
+/* Style the navigation bar container */
+.Hnavbar {
+    padding: 0.5%;
+    background-image: url("../Images/NavBg.jpg");
+    /* background-image: url("./LogoHead.png"); */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #343a40; /* Fallback color */
+}
+
+/* Style the navbar brand */
+.navbar-brand {
+    color: #f8f9fa; /* Light color */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Style navbar links */
+.nav-link {
+    color: #f7f7f7;
+    text-decoration: none;
+    margin-right: 20px; 
+    font-weight: bold;
+}
+
+/* Hover effect for navbar links */
+.nav-link:hover {
+    color: #939699;
+}
+
+/* Style the navbar toggler icon */
+.navbar-toggler {
+    color: #f8f9fa;
+}
+
+/* Navbar collapse adjustments */
+.navbar-collapse {
+    justify-content: flex-end; /* Align items to the right */
+}
+
+/* Media Queries */
+
+/* For extra-small screens (max-width: 576px) */
+@media (max-width: 176px) {
+    /* Adjust brand font size */
+    .navbar-brand {
+        font-size: 10px;
+    }
+    /* Adjust link spacing */
+    .nav-link {
+        margin-right: 10px;
+    }
+}
+@media (min-width: 276px) {
+    /* Adjust brand font size */
+    .navbar-brand {
+        font-size: 2px;
+    }
+    /* Adjust link spacing */
+    .nav-link {
+        margin-right: 10px;
+    }
+}
+@media (min-width: 376px) {
+    /* Adjust brand font size */
+    .navbar-brand {
+        font-size: 10px;
+    }
+    /* Adjust link spacing */
+    .nav-link {
+        margin-right: 10px;
+    }
+}
+
+
+
+
+/* System smallest part */
+@media (min-width: 476px) {
+    /* Adjust brand font size */
+    .navbar-brand {
+        font-size: 20px;
+    }
+    /* Adjust link spacing */
+    .nav-link {
+        margin-right: 10px;
+    }
+}
+
+
+
+@media (min-width: 576px) {
+    /* Adjust brand font size */
+    .navbar-brand {
+        font-size: 21px;
+    }
+    /* Adjust link spacing */
+    .nav-link {
+        margin-right: 10px;
+    }
+}
+@media (min-width: 676px) {
+    /* Adjust brand font size */
+    .navbar-brand {
+        font-size: 21px;
+    }
+    /* Adjust link spacing */
+    .nav-link {
+        margin-right: 10px;
+    }
+}
+@media (min-width: 776px) {
+    /* Adjust brand font size */
+    .navbar-brand {
+        font-size: 22px;
+    }
+    /* Adjust link spacing */
+    .nav-link {
+        margin-right: 10px;
+    }
+}
+@media (min-width: 876px) {
+    /* Adjust brand font size */
+    .navbar-brand {
+        font-size: 22px;
+    }
+    /* Adjust link spacing */
+    .nav-link {
+        margin-right: 10px;
+    }
+}
+@media (min-width: 976px) {
+    /* Adjust brand font size */
+    .navbar-brand {
+        font-size: 23px;
+    }
+    /* Adjust link spacing */
+    .nav-link {
+        margin-right: 10px;
+    }
+}
+@media (min-width: 1076px) {
+    /* Adjust brand font size */
+    .navbar-brand {
+        font-size: 24px;
+    }
+    /* Adjust link spacing */
+    .nav-link {
+        margin-right: 10px;
+    }
+}
+@media (min-width: 1176px) {
+    /* Adjust brand font size */
+    .navbar-brand {
+        font-size: 25px;
+    }
+    /* Adjust link spacing */
+    .nav-link {
+        margin-right: 10px;
+    }
+}
+

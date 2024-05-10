@@ -1,0 +1,49 @@
+
+
+.Civilbg5{
+    width: 100%;
+      height: auto;
+      background-image: url("../Mech/Images/MechLastBg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .Civilbg5 .ForCenter{
+    
+      display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: auto; /* Adjust height as needed */
+  }
+  
+  .Civilbg5 .ForCenter .plan-card {
+    border: 1px solid #c4c2c2;
+    border-radius: 10px;
+    color: #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 25px rgba(102, 104, 104, 0.641); /* Add shadow to the cards */
+  
+  }
+  
+  .Civilbg5 .ForCenter .plan-card h2 {
+    margin-top: 0;
+  }
+  
+  .Civilbg5 .ForCenter .plan-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Different Card Styles */
+  .Civilbg5 .ForCenter .self-led {
+    background-color: #b8b8b8b4;
+  }
+  
+  .Civilbg5 .ForCenter .acknowledge-pre {
+    background-color: #b8b8b8b4;
+  }
+  
+  .Civilbg5 .ForCenter .advanced-mentor-pre {
+    background-color: #b8b8b8b4;
+  }

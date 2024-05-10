@@ -1,0 +1,49 @@
+/* FormPage container styles */
+.form-page-container {
+    margin-top: 20px; /* Adds space at the top */
+  }
+  
+  /* Form headings */
+  .form-page-heading {
+    text-align: center; /* Center-aligns the heading */
+    margin-bottom: 20px; /* Adds space below the heading */
+  }
+  
+  /* Form alert messages */
+  .form-page-alert {
+    text-align: center; /* Center-aligns the messages */
+    font-weight: bold; /* Makes the text bold */
+    margin-bottom: 20px; /* Adds space below the messages */
+  }
+  
+  /* Form row styles */
+  .form-page-row {
+    margin-bottom: 10px; /* Adds space below each row */
+  }
+  
+  /* Form group styles */
+  .form-page-group {
+    margin-bottom: 15px; /* Adds space below each form group */
+  }
+  
+  /* Form input styles */
+  .form-page-input {
+    border-radius: 5px; /* Rounds the corners of input fields */
+    border: 1px solid #ced4da; /* Sets a light border */
+    padding: 10px; /* Adds padding inside input fields */
+  }
+  
+  /* Form label styles */
+  .form-page-label {
+    font-weight: bold; /* Makes the labels bold */
+  }
+  
+  /* Submit button styles */
+  .form-page-submit-button {
+    display: block; /* Makes the button block-level */
+    width: 100%; /* Sets the button width to 100% of its parent */
+    padding: 10px 20px; /* Adds padding around the button */
+    border-radius: 5px; /* Rounds the corners of the button */
+    font-weight: bold; /* Makes the button text bold */
+  }
+  

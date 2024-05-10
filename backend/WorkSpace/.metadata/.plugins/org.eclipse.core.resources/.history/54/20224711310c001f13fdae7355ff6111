@@ -1,0 +1,50 @@
+package com.alpl.www.service;
+
+import java.io.Serializable;
+
+import org.hibernate.engine.spi.SharedSessionContractImplementor;
+import org.hibernate.id.IdentifierGenerator;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.alpl.www.entity.IdCounter;
+import com.alpl.www.repository.IdCounterRepository;
+
+@Component
+public class CustomIdGenerator implements IdentifierGenerator {
+
+    @Autowired
+    private IdCounterRepository idCounterRepository;  // Repository to interact with the database
+
+    private static final String COUNTER_KEY = "ALPL";
+
+    // Synchronized generate method to avoid concurrent modifications
+    @Override
+    @Transactional
+    public synchronized Serializable generate(SharedSessionContractImplementor session, Object object) {
+        // Fetch the current counter from the database using the repository
+        IdCounter idCounter = idCounterRepository.findById(COUNTER_KEY).orElse(null);
+
+        if (idCounter == null) {
+            // Initialize the counter if not found
+            idCounter = new IdCounter();
+            idCounter.setId(COUNTER_KEY);
+            idCounter.setCurrentCounter(1);
+            idCounterRepository.save(idCounter);
+        }
+
+        // Retrieve the current counter value
+        long counterValue = idCounter.getCurrentCounter();
+
+        // Generate the custom ID in the format "ALPL%03d"
+        String id = String.format("ALPL%03d", counterValue);
+
+        // Increment the counter and save it back to the repository
+        counterValue++;
+        idCounter.setCurrentCounter(counterValue);
+        idCounterRepository.save(idCounter);
+
+        return id;
+    }
+}

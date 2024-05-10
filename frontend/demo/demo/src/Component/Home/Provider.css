@@ -1,0 +1,46 @@
+/* styles.css */
+.MBg2 {
+    width: 100%;
+    height: auto;
+    background-image: url("../Images/Bg6\ \(2\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  MBgh{
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  .with-background-image {
+      background-image: url('../Images/txt1.jpg'); 
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+    
+  
+  .why-to-choose {
+      padding: 50px 0;
+    }
+    
+    .reason {
+      background-color: #1a1e33fd;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 8px 15px rgba(97, 107, 129, 0.956);
+    }
+    
+    .reason h3 {
+     color: #89bff8;
+     font-weight: bold;
+     font-size: 20px;
+
+    }
+    
+    .reason p {
+      color: #cae4fe;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    

@@ -1,0 +1,28 @@
+.CadBG1{
+    width: 100%;
+  height: 90vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/CivilCad.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center top;
+    
+}
+.CadBG1 .CadH1{
+    color: white;
+    text-align: center;
+    padding: 12px;
+    background-attachment: fixed;
+
+    background-color: rgb(0, 0, 0);
+   
+}
+.CadBG1 .CadH6 {
+    color: white;
+    display: flex;
+    margin: 5%;
+    justify-content: auto;
+    padding: 12px;
+    width: 80%;
+    /* text-align: justify;  */
+}

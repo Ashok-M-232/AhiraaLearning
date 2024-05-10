@@ -1,0 +1,42 @@
+/* CSS for small to medium screens */
+.csebg5 {
+  width: 100%;
+  height: auto;
+  background-image: url("../Images/CSE/csebg8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Plan card styles */
+.csebg5 .ForCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.csebg5 .ForCenter .plan-card {
+  border: 1px solid #c4c2c2;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 25px rgba(199, 243, 243, 0.641);
+}
+
+.csebg5 .ForCenter .plan-card h2 {
+  margin-top: 0;
+}
+
+.csebg5 .ForCenter .plan-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Different Card Styles */
+.csebg5 .ForCenter .self-led,
+.csebg5 .ForCenter .acknowledge-pre,
+.csebg5 .ForCenter .advanced-mentor-pre {
+  background-color: #0000007b;
+}

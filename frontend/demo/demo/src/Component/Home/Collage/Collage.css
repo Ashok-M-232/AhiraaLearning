@@ -1,0 +1,51 @@
+.CLGBG {
+    
+    width: 100%;
+    background-image: url("./3594842.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+
+    height: auto;
+
+  }
+.CLGBG .h1Bg{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 1%;
+    text-align: center;
+  }
+
+.CLGBG .h5Bg{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 1%;
+    text-align: center;
+  }
+
+  
+  .CLGBG .card-img-top {
+   
+    margin: 0 auto; /* Centers the element horizontally */
+    transition: all 0.3s ease; /* Adjusts the speed by changing the duration (0.3s) */
+    display: flex; /* Uses flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    margin-top: 5%;
+    width: auto;
+    height: 7%; /* This sets the width of the element to 32% */
+
+}
+
+
+/* .CLGBG .card-img-top:hover {
+    width: 21%;
+    margin: 0.5%;
+    padding: 40px;
+} */
+
+
+
+

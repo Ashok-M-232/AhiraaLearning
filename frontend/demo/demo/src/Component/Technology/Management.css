@@ -1,0 +1,160 @@
+
+.MGbg{
+    width: 100%;
+    height: 85vh;
+    background-image: url("../Management/Image/MGBg3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .MGbg .CseHd .CseH1 {
+    padding: 12px;
+    text-align: center;
+    font-size: 38px;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+  }
+  .MGBg3 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Management/Image/MGBg4.png");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto; /* Adjust height as needed */
+    padding: 60px; /* Add padding to create space */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  /* styles.css */
+  
+  .MGbg4 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Management/Image/6713326.jpg");
+
+    background-size: cover;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto; /* Adjust height as needed */
+    padding: 50px; /* Add padding to create space */
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+  
+ .MGbg4 .text-center {
+  
+    text-align: center;
+    font-size: 30px; /* Set font size for list items */
+    font-weight: bold;
+  }
+  
+ .MGbg4 ul li strong {
+    font-size: 20px; /* Set font size for strong elements */
+    color: #ffffff; /* Set color for strong elements */
+    font-weight: bold;
+
+  }
+  
+ .MGbg4  ul {
+  /* font-weight: bold; */
+
+    font-size: 18px; /* Set font size for list items */
+  }
+  
+  .MGbg5{
+    width: 100%;
+      height: auto;
+      background-image: url("../Management/Image/PriceBg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .MGbg5 .ForCenter{
+    
+      display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: auto; /* Adjust height as needed */
+  }
+  
+  .MGbg5 .ForCenter .plan-card {
+    border: 1px solid #c4c2c2;
+    border-radius: 10px;
+    color: #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 25px rgba(102, 104, 104, 0.641); /* Add shadow to the cards */
+  
+  }
+  
+  .MGbg5 .ForCenter .plan-card h2 {
+    margin-top: 0;
+  }
+  
+  .MGbg5 .ForCenter .plan-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Different Card Styles */
+  .MGbg5 .ForCenter .self-led {
+    background-color: #b8b8b8b4;
+  }
+  
+  .MGbg5 .ForCenter .acknowledge-pre {
+    background-color: #b8b8b8b4;
+  }
+  
+  .MGbg5 .ForCenter .advanced-mentor-pre {
+    background-color: #b8b8b8b4;
+  }
+  
+  
+  
+  
+  .postcard {
+      flex-wrap: wrap;
+      display: flex;
+      box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+      border-radius: 10px;
+      margin: 0 0 2rem 0;
+      overflow: hidden;
+      position: relative;
+      color: #ffffff;
+    }
+    
+    .postcard__text {
+      flex: 1;
+      padding: 20px;
+    }
+    
+    .postcard__img_link {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    .postcard__img {
+      max-height: 180px;
+      width: auto;
+    }
+    
+    /* Add more CSS styles as needed */
+    /* Additional CSS styles can be added here */
+  .side-img {
+      width: 100%;
+      height: auto;
+    }
+  
+  
+  
+  
+    

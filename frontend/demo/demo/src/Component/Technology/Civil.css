@@ -1,0 +1,300 @@
+/* Civil.css */
+.CMBg {
+    width: 100%;
+    height: 90vh;
+    background-image: url("../Images/Tech/Civil4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  
+  .CHd .CH1 {
+    padding: 1%;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgb(1, 39, 73);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  
+
+  /* External CSS */
+
+
+
+
+
+
+  .CBg3 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../Images/Tech/Civil11.jpg");
+    border-radius: 95px 95px 0px 0px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.autocad, .cpbd {
+  padding: 30px;
+  background-color: rgba(237, 249, 253, 0.818);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.autocad h2, .cpbd h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.autocad p, .cpbd p {
+  margin-top: 20px;
+}
+
+.autocad strong, .cpbd strong {
+  font-weight: bold;
+  color: #007bff;
+}
+
+
+.CBg5{
+  width: 100%;
+    height: auto;
+    background-image: url("../Images/Tech/Civil6.jpg");
+    border-radius: 0px 0px 95px 95px ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+/* Styles for Civil Engineering Benefits */
+.CBg5 .benefits {
+  background-color: #edf9ffdc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.benefits h2 {
+  color: #000000;
+}
+
+.CBg5.benefits ul {
+  padding-left: 20px;
+}
+
+.CBg5 .benefits li {
+  margin-bottom: 10px;
+}
+
+.CBg5 .benefits li i {
+  color: green;
+  margin-right: 10px;
+}
+
+/* Styles for Civil Engineering Instructors */
+.CBg5 .instructors {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.instructors h2 {
+  color: #333;
+}
+
+.instructors p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.instructors ul {
+  padding-left: 20px;
+}
+
+.instructors li {
+  margin-bottom: 10px;
+}
+
+.instructors li i {
+  color: blue;
+  margin-right: 10px;
+}
+
+
+/* Styles for Civil Engineering Instructors */
+.instructors {
+  background-color: #edf9ffdc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.instructors h2 {
+  color: #333;
+}
+
+.instructors p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.instructors ul {
+  padding-left: 20px;
+}
+
+.instructors li {
+  margin-bottom: 10px;
+}
+
+.instructors li i {
+  color: blue;
+  margin-right: 10px;
+}
+
+.plan-details {
+  padding: 20px;
+}
+
+.plan-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plan-card h2 {
+  text-align: center;
+}
+
+.plan-card ul {
+  padding-left: 20px;
+}
+
+.plan-card p {
+  margin-top: 20px;
+}
+
+/* Plan Cards */
+.CBg7{
+  width: 100%;
+    height: 90vh;
+    background-image: url("./Civil15.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.white-text {
+  padding: 20px;
+  color: white;
+  font-size: 25px;
+}
+.ForCenter{
+  
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 65vh; /* Adjust height as needed */
+}
+
+.plan-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 25px rgb(0, 0, 0); /* Add shadow to the cards */
+
+}
+
+.plan-card h2 {
+  margin-top: 0;
+  color: #00a0f7;
+}
+
+.plan-card ul {
+  padding: 20px;
+}
+
+/* Different Card Styles */
+.self-led,
+.acknowledge-pre,
+.advanced-mentor-pre {
+  background-color: #f5f5f5a4;
+}
+
+
+
+/* Media Query for Responsiveness */
+@media (max-width: 992px) {
+  .plan-card {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+
+/* CSS Styles */
+.CBg5 {
+  /* Container styles */
+  padding: 50px; /* 50 padding as requested */
+  color: #000000; /* White text for readability */
+  margin: auto; /* Center container */
+}
+
+.CBg5 h2 {
+  /* Heading styles */
+  font-family: 'Arial', sans-serif; /* Clear, readable font */
+  font-weight: bold; /* Bold headings for emphasis */
+  text-align: center; /* Center headings */
+  margin-bottom: 20px; /* Space between headings and list */
+}
+
+.CBg5 ul {
+  background-color: #0000007e;
+  border-radius: 5px;
+  /* Unordered list styles */
+  list-style: none; /* Remove default bullet points */
+  padding: 12px; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+
+}
+
+.CBg5 li {
+  font-size: 20px;
+  color: #ffffff;
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 10px; /* Space between list items */
+}
+
+.CBg5 li i {
+  /* Icon styles */
+  margin-right: 10px; /* Space between icon and text */
+
+}
+
+

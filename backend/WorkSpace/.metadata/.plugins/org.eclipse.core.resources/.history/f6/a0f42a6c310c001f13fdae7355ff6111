@@ -1,0 +1,6 @@
+package com.alpl.www.repository;
+
+@Repository
+public interface IdCounterRepository extends JpaRepository<IdCounter, String> {
+    // Custom methods to find and update the counter can be defined here if needed
+}

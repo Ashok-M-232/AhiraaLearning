@@ -1,0 +1,93 @@
+/* General container styling */
+.MBg4 {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%;
+  height: 100vh;
+  background-image: url("./subjBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Styling for the heading */
+.MBg4 .heading {
+  color: #8fb1ff; /* Blue color */
+  padding: 25px;
+  text-align: center;
+}
+
+/* Base hover effect for all cards */
+.MBg4 .card {
+background-color: #182b58c2;
+
+}
+.MBg4 .card:hover {
+  transform: scale(1.2); /* Adjust the scale as desired for the zoom effect */
+  transition: transform 0.5s ease; /* Smooth transition on hover */
+
+}
+
+/* Hover effect for CSE card */
+.MBg4 .cse-card:hover {
+  background-color: #8fb1ffe7; /* Blue color for CSE */
+  color: aliceblue;
+}
+
+/* Hover effect for MECH card */
+.MBg4 .mech-card:hover {
+  background-color: #8fb1ffe7; /* Blue color for CSE */
+}
+
+/* Hover effect for ECE/EEE card */
+.MBg4 .ece-eee-card:hover {
+  background-color: #8fb1ffe7; /* Blue color for CSE */
+}
+
+/* Hover effect for Free Coding Class card */
+.MBg4 .coding-card:hover {
+  /* CIVBTN */
+  background-color: #8fb1ffe7; /* Blue color for CSE */
+
+}
+
+/* Hover effect for Civil card */
+.MBg4 .civil-card:hover {
+  background-color: #8fb1ffe7; /* Blue color for CSE */
+}
+
+/* Hover effect for Management card */
+.MBg4 .management-card:hover {
+  background-color: #8fb1ffe7; /* Blue color for CSE */
+}
+
+/* Styling for card title */
+.MBg4 .card-title {
+  color: #333;
+  font-weight: bold;
+  color: aliceblue;
+
+}
+
+/* Additional styling for card body */
+.MBg4 .card-body {
+  text-align: center;
+
+}
+
+/* Styling for card text */
+.MBg4 .card-text {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Styling for list items in card text */
+.MBg4 .card-text li {
+  margin-bottom: 5px;
+}
+
+/* Prevent anchor text decoration */
+.MBg4 a.text-decoration-none {
+  text-decoration: none; /* Remove underline from links */
+}

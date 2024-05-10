@@ -1,0 +1,5 @@
+package com.alpl.www.entity;
+
+public class IdCounter {
+
+}

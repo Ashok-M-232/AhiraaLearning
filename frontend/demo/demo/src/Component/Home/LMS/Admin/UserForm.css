@@ -1,0 +1,70 @@
+/* Form container styles */
+.user-form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+/* Card styles */
+.user-form-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Set max-width to control card size */
+}
+
+/* Card body styles */
+.user-form-card-body {
+    padding: 25px; /* Increase padding for a cleaner look */
+}
+
+/* Header styles */
+.user-form-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444; /* Change color to a darker gray */
+}
+
+/* Form group styles */
+.user-form-group {
+    margin-bottom: 15px; /* Add more space between form groups */
+}
+
+.user-form-group label {
+    font-weight: bold;
+    display: block; /* Ensure labels are block elements */
+    margin-bottom: 5px;
+}
+
+.user-form-input {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    border-radius: 6px; /* Rounded corners */
+    border: 1px solid #ccc;
+}
+
+/* Button styles */
+.user-form-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px; /* Rounded corners */
+    padding: 12px; /* Increase padding */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%; /* Full width button */
+    margin-top: 20px; /* Add margin at the top for spacing */
+}
+
+.user-form-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error message styles */
+.user-form-error {
+    font-size: 14px;
+    color: red;
+    margin-top: 5px;
+    text-align: center;
+}
